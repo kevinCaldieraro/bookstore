@@ -15,6 +15,7 @@ module.exports = class Book extends Product {
     this.title = title;
     this.synopsis = synopsis;
     this.genre = genre;
+    this.pages = pages;
     this.author = author;
   }
 };
